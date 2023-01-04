@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30BCAC362965CCDE00061E73 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BCAC352965CCDE00061E73 /* Toolbar.swift */; };
 		30D8F4F82957416D0054B84A /* budgetplusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F4F72957416D0054B84A /* budgetplusApp.swift */; };
-		30D8F4FA2957416D0054B84A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F4F92957416D0054B84A /* ContentView.swift */; };
+		30D8F4FA2957416D0054B84A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F4F92957416D0054B84A /* RootView.swift */; };
 		30D8F4FC2957416D0054B84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D8F4FB2957416D0054B84A /* Assets.xcassets */; };
 		30D8F4FF2957416D0054B84A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D8F4FE2957416D0054B84A /* Preview Assets.xcassets */; };
+		30D8F50929574F840054B84A /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30D8F50629574F830054B84A /* Poppins-Medium.ttf */; };
+		30D8F50A29574F840054B84A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30D8F50729574F840054B84A /* Poppins-Regular.ttf */; };
+		30D8F50B29574F840054B84A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30D8F50829574F840054B84A /* Poppins-Bold.ttf */; };
+		30D8F50E295750540054B84A /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F50D295750540054B84A /* FontStyles.swift */; };
+		30D8F510295757F00054B84A /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F50F295757F00054B84A /* TransactionsView.swift */; };
+		30D8F512295758080054B84A /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F511295758080054B84A /* BudgetsView.swift */; };
+		30D8F514295758150054B84A /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F513295758150054B84A /* AccountsView.swift */; };
+		30D8F516295758240054B84A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8F515295758240054B84A /* SettingsView.swift */; };
+		30EEB55B29584D100087A789 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EEB55A29584D100087A789 /* Tabbar.swift */; };
+		30EEB55E295855AA0087A789 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EEB55D295855AA0087A789 /* Tab.swift */; };
+		30F80D512965D3B100C7BBDA /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F80D502965D3B100C7BBDA /* Search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30BCAC352965CCDE00061E73 /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 		30D8F4F42957416D0054B84A /* budgetplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = budgetplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D8F4F72957416D0054B84A /* budgetplusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budgetplusApp.swift; sourceTree = "<group>"; };
-		30D8F4F92957416D0054B84A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30D8F4F92957416D0054B84A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		30D8F4FB2957416D0054B84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D8F4FE2957416D0054B84A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30D8F50629574F830054B84A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		30D8F50729574F840054B84A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		30D8F50829574F840054B84A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		30D8F50C29574FD90054B84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		30D8F50D295750540054B84A /* FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyles.swift; sourceTree = "<group>"; };
+		30D8F50F295757F00054B84A /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		30D8F511295758080054B84A /* BudgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
+		30D8F513295758150054B84A /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		30D8F515295758240054B84A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30EEB55A29584D100087A789 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		30EEB55D295855AA0087A789 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		30F80D502965D3B100C7BBDA /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30BCAC322965CB9600061E73 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30F80D502965D3B100C7BBDA /* Search.swift */,
+				30EEB55D295855AA0087A789 /* Tab.swift */,
+				30EEB55A29584D100087A789 /* Tabbar.swift */,
+				30BCAC352965CCDE00061E73 /* Toolbar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		30D8F4EB2957416D0054B84A = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +87,13 @@
 		30D8F4F62957416D0054B84A /* budgetplus */ = {
 			isa = PBXGroup;
 			children = (
+				30D8F50C29574FD90054B84A /* Info.plist */,
 				30D8F4F72957416D0054B84A /* budgetplusApp.swift */,
-				30D8F4F92957416D0054B84A /* ContentView.swift */,
+				30D8F4F92957416D0054B84A /* RootView.swift */,
+				30BCAC322965CB9600061E73 /* Components */,
+				30F80D532965D4A200C7BBDA /* Screens */,
+				30D8F50D295750540054B84A /* FontStyles.swift */,
+				30D8F50529574D750054B84A /* Fonts */,
 				30D8F4FB2957416D0054B84A /* Assets.xcassets */,
 				30D8F4FD2957416D0054B84A /* Preview Content */,
 			);
@@ -65,6 +106,27 @@
 				30D8F4FE2957416D0054B84A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30D8F50529574D750054B84A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				30D8F50829574F840054B84A /* Poppins-Bold.ttf */,
+				30D8F50629574F830054B84A /* Poppins-Medium.ttf */,
+				30D8F50729574F840054B84A /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		30F80D532965D4A200C7BBDA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				30D8F50F295757F00054B84A /* TransactionsView.swift */,
+				30D8F511295758080054B84A /* BudgetsView.swift */,
+				30D8F513295758150054B84A /* AccountsView.swift */,
+				30D8F515295758240054B84A /* SettingsView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +187,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D8F50929574F840054B84A /* Poppins-Medium.ttf in Resources */,
 				30D8F4FF2957416D0054B84A /* Preview Assets.xcassets in Resources */,
+				30D8F50B29574F840054B84A /* Poppins-Bold.ttf in Resources */,
 				30D8F4FC2957416D0054B84A /* Assets.xcassets in Resources */,
+				30D8F50A29574F840054B84A /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D8F4FA2957416D0054B84A /* ContentView.swift in Sources */,
+				30F80D512965D3B100C7BBDA /* Search.swift in Sources */,
+				30D8F516295758240054B84A /* SettingsView.swift in Sources */,
+				30D8F4FA2957416D0054B84A /* RootView.swift in Sources */,
+				30D8F510295757F00054B84A /* TransactionsView.swift in Sources */,
+				30EEB55B29584D100087A789 /* Tabbar.swift in Sources */,
+				30D8F514295758150054B84A /* AccountsView.swift in Sources */,
+				30D8F512295758080054B84A /* BudgetsView.swift in Sources */,
+				30EEB55E295855AA0087A789 /* Tab.swift in Sources */,
+				30BCAC362965CCDE00061E73 /* Toolbar.swift in Sources */,
 				30D8F4F82957416D0054B84A /* budgetplusApp.swift in Sources */,
+				30D8F50E295750540054B84A /* FontStyles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +343,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"budgetplus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = budgetplus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +372,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"budgetplus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = budgetplus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
